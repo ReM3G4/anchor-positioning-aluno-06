@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Prática: CSS Anchor Positioning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <span class="badge">CSS Anchor Positioning • Imagem IA (16:9) com 5 Elementos</span>
+    <h1>Tema: Pintura Clássica: Mona Lisa em Exibição</h1>
+    <p>Aluno(a): Guilherme Luis Rosa • Chamada: Aluno Nº 6</p>
+  </header>
+
+  <main class="container-infografico">
+    <div class="cenario-imagem">
+      <!-- 1 Única Imagem Widescreen (16:9) Gerada na IA -->
+      <img id="foto-cenario" src="imagem.png" alt="Cenário Temático Widescreen 16:9">
+
+      <!-- PONTO 1: Superior Esquerdo -->
+      <button type="button" id="ponto-1" class="pin-hotspot pin-top-left" popovertarget="card-1">1</button>
+      <div id="card-1" class="card-ancorado" popover>
+        <h3>1. Montanhas Nebulosas</h3>
+        <p>Paisagem ao fundo da pintura, composta por montanhas, vales e águas sinuosas. A perspectiva atmosférica utiliza tons azulados e esmaecidos para transmitir profundidade e distância.</p>
+      </div>
+
+      <!-- PONTO 2: Superior Direito -->
+      <button type="button" id="ponto-2" class="pin-hotspot pin-top-right" popovertarget="card-2">2</button>
+      <div id="card-2" class="card-ancorado" popover>
+        <h3>2. Ponte histórica</h3>
+        <p>Elemento arquitetônico da paisagem posterior, representado por uma ponte de pedra sobre um curso d’água. Sua integração ao cenário contribui para a perspectiva e a profundidade visual da composição.</p>
+      </div>
+
+      <!-- PONTO 3: Centro -->
+      <button type="button" id="ponto-3" class="pin-hotspot pin-center" popovertarget="card-3">3</button>
+      <div id="card-3" class="card-ancorado" popover>
+        <h3>3. Olhar e Sorriso</h3>
+        <p>Retrato central da Mona Lisa, de Leonardo da Vinci, caracterizado pela técnica do sfumato, que suaviza as transições entre luz e sombra, criando uma expressão facial sutil e enigmática.</p>
+      </div>
+
+      <!-- PONTO 4: Inferior Esquerdo -->
+      <button type="button" id="ponto-4" class="pin-hotspot pin-bottom-left" popovertarget="card-4">4</button>
+      <div id="card-4" class="card-ancorado" popover>
+        <h3>4. Mãos Cruzadas    </h3>
+        <p>As mãos da Mona Lisa estão posicionadas uma sobre a outra, com anatomia cuidadosamente representada, iluminação suave e transições graduais de sombra, evidenciando o domínio técnico de Leonardo da Vinci.</p>
+      </div>
+
+      <!-- PONTO 5: Inferior Direito -->
+      <button type="button" id="ponto-5" class="pin-hotspot pin-bottom-right" popovertarget="card-5">5</button>
+      <div id="card-5" class="card-ancorado" popover>
+        <h3>5. Manto Renascentista</h3>
+        <p>Tecidos escuros que envolvem a cabeça e o corpo da personagem, representados por variações sutis de tonalidade, dobras e sombras. A técnica pictórica enfatiza a textura dos tecidos e o volume da vestimenta.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Material Pedagógico • Prof. Esp. Leandro Gaudio Rosa • Entrega no GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
